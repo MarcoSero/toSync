@@ -1,8 +1,8 @@
 # toSync
 toSync is a simple Java program to synchronize folders
 
-![](http://www.marcosero.com/files/tosync/tosync1.png)	![](http://www.marcosero.com/files/tosync/tosync2.png)  
-![](http://www.marcosero.com/files/tosync/tosync3.png)	![](http://www.marcosero.com/files/tosync/tosync4.png)  
+![](http://www.marcosero.com/files/tosync/tosync1.png)  ![](http://www.marcosero.com/files/tosync/tosync2.png)  
+![](http://www.marcosero.com/files/tosync/tosync3.png)  ![](http://www.marcosero.com/files/tosync/tosync4.png)  
 
 
 ## Compile and create jar-file
@@ -10,8 +10,6 @@ toSync is a simple Java program to synchronize folders
 
 ##Execute
 	$ make run
-OR  
-	$ java -jar toSync.jar
 
 ##How to Use
 Select the directory "Source", then the directory "Destination". Choose the kind of synchronization and the click the button "Start toSync!".  
