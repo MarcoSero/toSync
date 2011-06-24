@@ -1,26 +1,26 @@
 # toSync
 toSync is a simple Java program to synchronize folders
 
-![](http://img148.imageshack.us/img148/1802/schermata062455737alle1.png)
-![](http://img846.imageshack.us/img846/1802/schermata062455737alle1.png)
-![](http://img90.imageshack.us/img90/1802/schermata062455737alle1.png)
-![](http://img17.imageshack.us/img17/1802/schermata062455737alle1.png)
+[![](http://img839.imageshack.us/img839/1802/schermata062455737alle1.png)](http://img148.imageshack.us/img148/1802/schermata062455737alle1.png)
+[![](http://img171.imageshack.us/img171/1802/schermata062455737alle1.png)](http://img846.imageshack.us/img846/1802/schermata062455737alle1.png)
+[![](http://img197.imageshack.us/img197/1802/schermata062455737alle1.png)](http://img90.imageshack.us/img90/1802/schermata062455737alle1.png)
+[![](http://img18.imageshack.us/img18/1802/schermata062455737alle1.png)](http://img17.imageshack.us/img17/1802/schermata062455737alle1.png)
 
 ## Compile and create jar-file
 	$ make all
 
 ##Execute
 	$ make run
-OR
+OR  
 	$ java -jar toSync.jar
 
 ##How to Use
-Select the directory "Source", then the directory "Destination". Choose the kind of synchronization and the click the button "Start toSync!".
+Select the directory "Source", then the directory "Destination". Choose the kind of synchronization and the click the button "Start toSync!".  
 
-There are three kind of  synchronization:
-	• Reciprocal: if a file is in source (or in destination) but not in destination(or in source), will be copied. The most recent file will overwrite the oldest.
-	• Source completes Destination: If a file is in source but not in destination, will be copied in destination.
-	• Source replaces Destination: if a file is in source but not in destination, will be copied in destination. If a file is in destination but not in source, will be deleted in destination.
+There are three kind of  synchronization:  
+-   __Reciprocal__: if a file is in source (or in destination) but not in destination(or in source), will be copied. The most recent file will overwrite the oldest.  
+-   __Source completes Destination__: If a file is in source but not in destination, will be copied in destination.  
+-   __Source replaces Destination__: if a file is in source but not in destination, will be copied in destination. If a file is in destination but not in source, will be deleted in destination.  
 
 
 ## License
