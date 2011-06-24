@@ -1,12 +1,25 @@
-Compile and create jar-file of toSync:
-	$ make all
+toSync
+=======
+A simple Java program to synchronize folders 
 
-Execute toSync:
-	$ make run
+[![](http://img148.imageshack.us/img148/1802/schermata062455737alle1.png)]()
+[![](http://img846.imageshack.us/img846/1802/schermata062455737alle1.png)]()
+[![](http://img90.imageshack.us/img90/1802/schermata062455737alle1.png)]()
+[![](http://img17.imageshack.us/img17/1802/schermata062455737alle1.png)]()
+
+Compile and create jar-file
+=========
+
+$ make all
+
+Execute toSync
+=========
+$ make run
 OR
-	$ java -jar toSync.jar
+$ java -jar toSync.jar
 
 How to Use toSync?
+=========
 	Select the directory "Source", then the directory "Destination". Choose the kind of synchronization and the click the button "Start toSync!".
 
 There are three kind of  synchronization:
@@ -16,12 +29,15 @@ There are three kind of  synchronization:
 
 
 About License
+=========
 	toSync is under GNU GENERAL PUBLIC LICENSE Version 3.
 
 Support
+=========
 	For the latest news about toSync, visit the website of Marco Sero at http://www.marcosero.com/
 
 Version History
+=========
 	v1.0
 	• First release.
 
