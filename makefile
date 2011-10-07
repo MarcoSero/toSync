@@ -10,7 +10,7 @@ SOURCES = \
 
 .PHONY: clean all
 
-all: toSync.class toSync.jar clean
+all: toSync.class toSync.jar
 	
 toSync.class: $(SOURCES)
 	javac $(CP)*.java
